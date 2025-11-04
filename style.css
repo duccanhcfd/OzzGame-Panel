@@ -1,0 +1,45 @@
+:root{
+  --bg:#0b1220; --card:#111b2d; --text:#e7ecfa; --muted:#99a3c2; --primary:#3b82f6; --ok:#22c55e; --warn:#f59e0b; --danger:#ef4444;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu;line-height:1.5;background:var(--bg);color:var(--text)}
+.container{max-width:1100px;margin:0 auto;padding:16px}
+.flex{display:flex}.between{justify-content:space-between}.center{align-items:center}
+.site-header{background:#0d1629;border-bottom:1px solid #1e2a44;position:sticky;top:0;z-index:10}
+.brand a{color:var(--text);text-decoration:none;font-weight:700}
+.menu a{color:var(--text);opacity:.9;text-decoration:none;margin:0 10px;padding:10px 12px;border-radius:12px}
+.menu a:hover{background:#16223a}
+.site-footer{border-top:1px solid #1e2a44;margin-top:32px;padding:16px 0;color:var(--muted)}
+
+h1,h2,h3{margin:.2em 0 .6em}
+.grid{display:grid;gap:16px}
+.grid.stats{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.grid.two{grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
+.card{background:var(--card);border:1px solid #1e2a44;padding:16px;border-radius:16px;box-shadow:0 4px 20px rgba(0,0,0,.15)}
+.kv{display:flex;justify-content:space-between;margin:8px 0}
+.kv span{color:var(--muted)}
+.progress{height:10px;background:#0a1428;border-radius:999px;overflow:hidden;border:1px solid #1e2a44;margin:8px 0}
+.progress .bar{height:100%;background:var(--primary)}
+.pre{white-space:pre-wrap;background:#0a1428;padding:12px;border-radius:12px;border:1px solid #1e2a44;overflow:auto}
+.muted{color:var(--muted);font-size:.9em}
+
+.auth-card{max-width:420px;margin:40px auto}
+.form-grid{display:grid;gap:12px}
+input[type=text],input[type=password]{width:100%;padding:10px 12px;border-radius:12px;border:1px solid #1e2a44;background:#0a1428;color:var(--text)}
+.btn{padding:10px 14px;border:none;border-radius:12px;cursor:pointer}
+.btn.primary{background:var(--primary);color:#fff}
+.alert{padding:10px 12px;border-radius:12px;margin-bottom:10px}
+.alert.error{background:#2a1320;border:1px solid #4d1f34;color:#ffd7e0}
+
+
+/* Fix menu trên mobile quá dài */
+@media (max-width: 768px) {
+  .site-header .menu {
+    max-height: 70vh;   /* chỉ chiếm tối đa 70% chiều cao màn hình */
+    overflow-y: auto;   /* xuất hiện thanh cuộn dọc */
+  }
+  .site-header .menu a {
+    padding: 8px;       /* padding gọn hơn cho tiết kiệm chỗ */
+    font-size: 15px;    /* chữ nhỏ hơn một chút */
+  }
+}

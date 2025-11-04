@@ -1,0 +1,106 @@
+[2025-09-05T08:31:51+07:00] user=admin ip=103.199.32.113 action=list_hosts body=[]
+[2025-09-05T08:31:51+07:00] ERROR user=admin action=list_hosts msg=DB error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'docroot' in 'field list'
+[2025-09-05T08:34:40+07:00] user=admin ip=103.199.32.113 action=list_hosts body=[]
+[2025-09-05T08:34:41+07:00] user=admin ip=103.199.32.113 action=list_hosts body=[]
+[2025-09-05T08:43:22+07:00] user=admin ip=103.199.32.113 action=list_hosts body=[]
+[2025-09-05T08:43:22+07:00] ERROR user=admin action=list_hosts msg=Call to undefined function db_connect()
+[2025-09-05T08:43:24+07:00] user=admin ip=103.199.32.113 action=list_hosts body=[]
+[2025-09-05T08:43:24+07:00] ERROR user=admin action=list_hosts msg=Call to undefined function db_connect()
+[2025-09-05T09:32:27+07:00] user=admin ip=103.199.32.113 action=list_hosts body=[]
+[2025-09-05T09:40:26+07:00] user=admin ip=103.75.183.76 action=create_host body={"domain":"test123.com"}
+[2025-09-05T09:40:26+07:00] ERROR user=admin action=create_host msg=Create host error: SQLSTATE[HY000]: General error: 1364 Field 'password' doesn't have a default value
+[2025-09-05T09:43:02+07:00] user=admin ip=103.75.183.76 action=list_hosts body=[]
+[2025-09-05T09:43:23+07:00] user=admin ip=103.75.183.76 action=create_host body={"domain":"test123.com"}
+[2025-09-05T09:43:23+07:00] ERROR user=admin action=create_host msg=Create host error: SQLSTATE[HY000]: General error: 1364 Field 'ip_temp' doesn't have a default value
+[2025-09-05T09:45:56+07:00] user=admin ip=103.75.183.76 action=create_host body={"domain":"test123.com"}
+[2025-09-05T09:45:56+07:00] ERROR user=admin action=create_host msg=Create host error: System script failed: 
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+
+[2025-09-05T10:15:39+07:00] user=admin ip=103.75.183.76 action=create_host body={"domain":"test123.com"}
+[2025-09-05T10:15:39+07:00] ERROR user=admin action=create_host msg=Create host error: Domain already exists
+[2025-09-05T10:15:58+07:00] user=admin ip=103.75.183.76 action=delete_host body={"domain":"test123.com"}
+[2025-09-05T10:15:58+07:00] ERROR user=admin action=delete_host msg=Call to undefined function delete_host_any()
+[2025-09-05T10:20:09+07:00] user=admin admin= ip=103.199.32.113 action=list_hosts body=[]
+[2025-09-05T10:21:24+07:00] user=admin admin= ip=103.75.183.76 action=create_host body={"domain":"test123.com"}
+[2025-09-05T10:21:24+07:00] ERROR user=admin action=create_host msg=Domain already exists
+[2025-09-05T10:22:23+07:00] user=admin admin= ip=103.75.183.76 action=delete_host_any body={"domain":"test123.com"}
+[2025-09-05T10:24:11+07:00] user=admin admin= ip=103.75.183.76 action=delete_host_any body={"domain":"test123.com"}
+[2025-09-05T10:27:21+07:00] user=admin admin= ip=103.75.183.76 action=delete_host body={"domain":"test123.com"}
+[2025-09-05T10:27:21+07:00] ERROR user=admin action=delete_host msg=System script failed: 
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+
+[2025-09-05T10:27:23+07:00] user=admin admin= ip=103.75.183.76 action=delete_host body={"domain":"anyhost.com"}
+[2025-09-05T10:27:23+07:00] ERROR user=admin action=delete_host msg=Domain not found or not owned by user
+[2025-09-05T10:34:30+07:00] user=admin admin= ip=103.75.183.76 action=create_host body={"domain":"test123.com"}
+[2025-09-05T10:34:30+07:00] ERROR user=admin action=create_host msg=Domain already exists
+[2025-09-05T10:34:30+07:00] user=admin admin= ip=103.75.183.76 action=delete_host body={"domain":"test123.com"}
+[2025-09-05T10:34:31+07:00] ERROR user=admin action=delete_host msg=System script failed: 
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+
+[2025-09-05T10:34:32+07:00] user=admin admin= ip=103.75.183.76 action=delete_host_any body={"domain":"anyhost.com"}
+[2025-09-05T10:39:13+07:00] user=admin admin= ip=103.75.183.76 action=create_host body={"domain":"test123.com"}
+[2025-09-05T10:39:13+07:00] ERROR user=admin action=create_host msg=Domain already exists
+[2025-09-05T10:39:48+07:00] user=admin admin= ip=103.75.183.76 action=delete_host body={"domain":"test123.com"}
+[2025-09-05T10:39:48+07:00] ERROR user=admin action=delete_host msg=System script failed: 
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+
+[2025-09-05T10:40:01+07:00] user=admin admin= ip=103.75.183.76 action=delete_host_any body={"domain":"somehost.com"}
+[2025-09-05T10:40:59+07:00] user=admin admin= ip=103.75.183.76 action=create_host body={"domain":"test999.com"}
+[2025-09-05T10:40:59+07:00] ERROR user=admin action=create_host msg=SQLSTATE[HY000]: General error: 1364 Field 'password' doesn't have a default value
+[2025-09-05T10:44:08+07:00] user=admin admin= ip=103.75.183.76 action=create_host body={"domain":"test999.com"}
+[2025-09-05T10:44:08+07:00] ERROR user=admin action=create_host msg=SQLSTATE[HY000]: General error: 1364 Field 'password' doesn't have a default value
+[2025-09-05T10:46:57+07:00] user=admin admin= ip=103.75.183.76 action=create_host body={"domain":"test999.com"}
+[2025-09-05T10:46:57+07:00] ERROR user=admin action=create_host msg=Create host error: System script failed: 
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+sudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+
+[2025-09-05T10:54:08+07:00] user=admin admin= ip=103.75.183.76 action=create_host body={"domain":"test123.com"}
+[2025-09-05T10:54:08+07:00] ERROR user=admin action=create_host msg=Cannot create docroot
+[2025-09-05T11:00:40+07:00] user=admin admin= ip=103.75.183.76 action=create_host body={"domain":"test123.com"}
+[2025-09-05T11:00:40+07:00] ERROR user=admin action=create_host msg=SQLSTATE[HY000]: General error: 1364 Field 'password' doesn't have a default value
+[2025-09-05T11:03:42+07:00] user=admin admin= ip=103.75.183.76 action=create_host body={"domain":"test123.com"}
+[2025-09-05T11:03:42+07:00] ERROR user=admin action=create_host msg=Domain already exists
+[2025-09-05T11:03:47+07:00] user=admin admin= ip=103.75.183.76 action=create_host body={"domain":"test123.com"}
+[2025-09-05T11:03:47+07:00] ERROR user=admin action=create_host msg=Domain already exists
+[2025-09-05T11:04:02+07:00] user=admin admin= ip=103.75.183.76 action=delete_host body={"domain":"test123.com"}
+[2025-09-05T11:04:23+07:00] user=admin admin= ip=103.75.183.76 action=create_host body={"domain":"test123.com"}
+[2025-09-05T11:04:39+07:00] user=admin admin= ip=103.75.183.76 action=delete_host body={"domain":"test123.com"}
